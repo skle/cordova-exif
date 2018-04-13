@@ -9,7 +9,6 @@
 	<keywords>cordova, camera, file, exif</keywords>
 	<repo>https://github.com/skle/cordova-exif.git</repo>
 
-	<dependency id="cordova-plugin-camera"/>
 	<dependency id="cordova-plugin-file"/>
 
 	<js-module src="index.js" name="CordovaExif">

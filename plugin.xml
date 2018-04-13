@@ -7,10 +7,10 @@
 	<description>The simplest way to get EXIF data of images at Cordova/Phonegap platform</description>
 	<license>MIT</license>
 	<keywords>cordova, camera, file, exif</keywords>
-	<repo>https://github.com/guilhermefarias/cordova-exif.git</repo>
+	<repo>https://github.com/skle/cordova-exif.git</repo>
 
-	<dependency id="cordova-plugin-camera" version="^2.0.0"/>
-	<dependency id="cordova-plugin-file" version="^4.0.0"/>
+	<dependency id="cordova-plugin-camera"/>
+	<dependency id="cordova-plugin-file"/>
 
 	<js-module src="index.js" name="CordovaExif">
 		<clobbers target="window.CordovaExif"/>
